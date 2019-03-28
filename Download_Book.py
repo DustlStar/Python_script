@@ -45,7 +45,7 @@ start = time.time()
 url = "https://www.kanunu8.com/book3/6879/"
 url_list = []
 url_list = get_Urllist( url )
-print(url_list[0])
+# print(url_list[0])
 pool = Pool(5)
 pool.map( Crawler_save , url_list )
 end = time.time()
