@@ -15,7 +15,6 @@ from multiprocessing.dummy import Pool
 def get_Urllist(start_url):
     """
     获取每一章链接，存储到一个列表并返回
-    :param html:目录页源代码
     :return:每章链接
     """
     head = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36'}
